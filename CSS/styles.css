@@ -114,12 +114,12 @@ margin-left: -145px;
 .grid-4 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-gap: 20px;
+    grid-gap: 25px;
 
 }
 .project-image {
-        height: calc(100% - 5.8rem);
-        width: calc(100% - 2rem);
+        max-height: 12rem;
+        max-width: 13rem;
         object-fit: cover;
 
       }
