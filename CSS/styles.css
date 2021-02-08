@@ -18,7 +18,7 @@ a {
     top: 0;
     left: 0;
     width: 100%;
-    background: #0E0326;
+    background: #003340;
     box-shadow: 0 2px 0 rgba(0, 0, 0, 0);
     z-index: 10;
   }
@@ -39,14 +39,16 @@ a {
   }
   
   .nav-grid a:hover {
-    background: #F28705;
+    background: #0099BF;
   }
 
 .header {
-    color: #0E0326;
-    
+    color: #003340;
+    background:#00CCFF;
+    background-size: cover;
+    height: 100vh;
 }
-.header::after {
+/*.header::after {
     content: "";
     height: 120vh;
     width: 100%;
@@ -67,7 +69,7 @@ a {
 .header:hover .header-content {
     filter: blur(2px);
     -webkit-filter: blur(2px);
-}
+}*/
 .header-content {
     position: absolute;
     z-index: 1;
@@ -127,8 +129,8 @@ margin-left: -145px;
 
 .grid-3 {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 20px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
     }
     
 .text-center {
@@ -137,10 +139,10 @@ margin-left: -145px;
 
 }
 .bg-light {
-    background: #F28705;
+    background: #006680;
 }
 .bg-dark {
-    background: #3C038C;
+    background: #00B8E6;
 }
  .projects {
      padding: 3rem 0;
@@ -155,14 +157,14 @@ margin-left: -145px;
 }
 .footer {
     padding: 2rem 0;
-    color: #F28705;
+    color: #00CCFF;
 }
 .footer p {
 margin: 0;
 
 }
 .bg-footer {
-    background-color: #0E0326;
+    background-color: #003340;
 
 }
 @media (max-width: 560px) {
@@ -247,3 +249,15 @@ margin: 0;
 .Interacción-3-hex { color: #05DBF2; }
 .Interacción-4-hex { color: #F2B705; }
 .Interacción-5-hex { color: #F28705; }
+/* Color Theme Swatches in Hex */
+.Ilustración-1a-hex { color: #01403A; }
+.Ilustración-2a-hex { color: #038C73; }
+.Ilustración-3a-hex { color: #03A678; }
+.Ilustración-4a-hex { color: #04D98B; }
+.Ilustración-5a-hex { color: #AFF21D; }
+/* Color Theme Swatches in Hex */
+.Onload-Development-1-hex { color: #0099BF; }
+.Onload-Development-2-hex { color: #006680; }
+.Onload-Development-3-hex { color: #00CCFF; }
+.Onload-Development-4-hex { color: #003340; }
+.Onload-Development-5-hex { color: #00B8E6; }
