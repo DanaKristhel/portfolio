@@ -41,35 +41,18 @@ a {
   .nav-grid a:hover {
     background: #0099BF;
   }
-
+.projects {
+    height: 100vh;
+}
+.contacto {
+    height: 100vh;
+}
 .header {
     color: #003340;
     background:#00CCFF;
     background-size: cover;
     height: 100vh;
 }
-/*.header::after {
-    content: "";
-    height: 120vh;
-    width: 100%;
-    background-image: url(../img/background-2462431_1920.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center ;
-    display: block;
-    filter: blur(3px);
-    -webkit-filter: blur(3px);
-    transition: all 1000ms;
-}
-.header:hover::after {
-    filter: blur(0px);
-    -webkit-filter: blur(0px);
-}
-
-.header:hover .header-content {
-    filter: blur(2px);
-    -webkit-filter: blur(2px);
-}*/
 .header-content {
     position: absolute;
     z-index: 1;
@@ -123,11 +106,18 @@ margin-left: -145px;
 
       }
 
-
-.grid-3 {
+.grid-projects {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 9px;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+}
+.grid-contacts {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-row-gap: 2rem;
+    grid-column-gap: 2rem;
+
+    justify-content: center;
     }
     
 .text-center {
@@ -213,9 +203,9 @@ margin: 0;
     .text {
         font-size: 1rem;
     }
-    .grid-4 {
+    .grid-3 {
         grid-template-columns: 1fr;
-
+        grid-row-gap: 30px;
     }
     .projects {
         padding: 5rem 1rem;
