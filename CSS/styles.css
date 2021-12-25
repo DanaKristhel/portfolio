@@ -41,10 +41,12 @@ a {
   .nav-grid a:hover {
     background: #0099BF;
   }
-.projects {
+#projects {
     height: 100vh;
+    padding: 2.5rem;
 }
-.contacto {
+#contacto {
+    padding: 1.5rem;
     height: 100vh;
 }
 .header {
@@ -52,6 +54,7 @@ a {
     background:#00CCFF;
     background-size: cover;
     height: 100vh;
+    
 }
 .header-content {
     position: absolute;
@@ -73,6 +76,8 @@ margin-left: -145px;
 .header-content .logo {
     height: 150px;
     width: 150px;
+    margin-bottom: 2rem;
+    padding-top: 2rem;
 }
 .header-content .fas {
     margin-top: 2rem;
