@@ -54,41 +54,41 @@ a {
     background: #00CCFF;
     background-size: cover;
     height: 100vh;
+    width: 100%;
     
 }
 .header-content {
-    position: absolute;
-    z-index: 1;
-    top: 0;
-    left: 50%;
-    margin-top: 140px;
-    margin-left: -145px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     text-align: center;
-    width: 300px;
-    height: 350px;
 }
 
 .header-content .title {
 width: 38rem;
-text-align: center;
-margin-left: -145px;
 }
 .header-content .logo {
+    margin-top: 8rem;
     height: 150px;
     width: 150px;
-    margin-bottom: 2rem;
-    padding-top: 2rem;
+    padding: 1.5rem;
 }
 .header-content .fas {
-    margin-top: 2rem;
+    font-size: 2rem;
+}
+.starand{
+    padding: 1.5rem;
+    align-items: center;
 }
 .title {
     font-family: 'Roboto Slab', serif;
     font-size: 3rem;
+    padding: 1.5rem;
 }
 .text {
     line-height: 1.7;
-    margin-top: 1rem;
+    padding: 0.2rem;
     font-size: 1.3rem;
 }
 .container {
@@ -169,16 +169,10 @@ margin: 0;
       margin: 0 1rem;
 
     }
-  }
-
-@media (max-width: 560px) {
     .nav-grid {
         display: flex;
         margin-right: 1rem;
-      }
-      
-     
-      
+      }      
       .nav-grid a {
         font-size: 1rem;
         margin: 0.5rem;
@@ -190,27 +184,29 @@ margin: 0;
        height: 100vh; 
     }
     .header-content{
-        top: 10%;
-        margin-top: 25%;
-        overflow: hidden;
-        
+        overflow: hidden; 
     }
     .header-content .logo {
-        height: 100px;
-        width: 100px;
+        height: 150px;
+        width: 150px;
+        margin-top: 5rem;
     }
     .title {
-        font-size: 1.3rem;
-        margin: 3rem;  
+        font-size: 2rem;
+        margin: 1rem;  
         text-align: center;
         max-width: 37rem;
     }
     .text {
-        font-size: 1rem;
+        font-size: 1.2rem;
+        margin: 1rem;
+    }
+    .starand{
+        margin: 1rem;
     }
     .grid-3 {
         grid-template-columns: 1fr;
-        grid-row-gap: 30px;
+        grid-row-gap: 20px;
     }
     .projects {
         padding: 5rem 1rem;
